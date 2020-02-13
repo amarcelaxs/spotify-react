@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   height:72px;
   display:flex;
-  justify-items:space-between;
+  justify-content:space-between;
   align-items:center;
   background: #282828;
   padding:12px;
@@ -57,13 +57,13 @@ export const Controls = styled.div`
   button{
     background:transparent;
     border:0;
-    margin:0 15px;
+    margin:0 15px !important;
   }
 
 
 `;
 
-export const Time =styled.div`
+export const Time = styled.div`
   display:flex;
   align-items:center;
   margin-top:5px;

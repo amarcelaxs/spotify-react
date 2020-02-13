@@ -45,7 +45,7 @@ const Player = () => (
 
       <Time>
         <span>1:39</span>
-        <span>4:24</span>
+        
         <ProgressSlider>
           <Slider
             railStyle={{bakground:'#404040',borderRadius:10}}
@@ -53,6 +53,7 @@ const Player = () => (
             handleStyle={{ border:0}}
           />
         </ProgressSlider>
+        <span>4:24</span>
       </Time>
     </Progress>
 
