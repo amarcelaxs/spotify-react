@@ -7,8 +7,8 @@ import Browse from '../pages/browse';
 
 const Routes = () => (
   <Switch>
-      <Route exact path="/" component={Browse} />
-  </Switch>
+    <Route exact path="/" component={Browse} />
+  </ Switch>
 
 );
 

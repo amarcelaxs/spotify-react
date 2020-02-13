@@ -25,6 +25,7 @@ export const Content = styled.div`
   background-repeat:no-repeat;
   background-position:top;
   font-weight:400;
+  padding:0 20px;
 
   
 `;

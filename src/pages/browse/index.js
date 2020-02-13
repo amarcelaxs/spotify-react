@@ -1,6 +1,14 @@
 import React from 'react';
 
-const Browse = () => <h1>Hello World</h1>
+
+
+import { Container, Title } from './styles';
+
+const Browse = () => (
+  <Container>
+    <Title>Navegar</Title>
+  </Container>
+);
 
 
 export default Browse;

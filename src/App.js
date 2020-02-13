@@ -31,23 +31,23 @@ export default App;
 
 export default function App() {
   return (
-   
+    
     <>
-    <BrowserRouter>
+   <BrowserRouter>
       <Wrapper>
         <Container >
           <Sidebar />
           <Content>
             <Header />
-              <Router />
+            <Routes />
           </Content>
         </ Container>
         <Player />
-      </Wrapper>   
-   
+      </Wrapper>     
       <GlobalStyle />
       </BrowserRouter> 
     </>
+    
   )
 };
 
