@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { Link } from 'react-router-dom';
+
 export const Container = styled.div`
   flex:1;
 
@@ -21,7 +23,7 @@ export const List = styled.div`
 
 `;
 
-export const Playlist = styled.a`
+export const Playlist = styled(Link)`
   display:flex;
   flex-direction:column;
   margin-left:20px;
