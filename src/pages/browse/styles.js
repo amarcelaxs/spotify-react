@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
+/*usar como ancora */
 
 export const Container = styled.div`
   flex:1;

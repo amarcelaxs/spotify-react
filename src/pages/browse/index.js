@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-import { Container, Title,Playlist, List } from './styles';
+
+import { Container, Title, Playlist, List } from './styles';
 
 
 const Browse = () => (
@@ -9,33 +10,33 @@ const Browse = () => (
     <Title>Navegar</ Title>
     <List>
       <Playlist to="/playlist/1">
-        <img src="https://www.billboard.com/files/styles/900_wide/public/media/Green-Day-American-Idiot-album-covers-billboard-1000x1000.jpg" 
-          alt="Playlist" 
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71Z0rLIvpuL._AC_SL1448_.jpg"
+          alt="Playlist"
         />
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial !!</p>
-      </ Playlist>
+      </Playlist>
       <Playlist to="/playlist/1">
-        <img src="https://www.billboard.com/files/styles/900_wide/public/media/Green-Day-American-Idiot-album-covers-billboard-1000x1000.jpg" 
-          alt="Playlist" 
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71Z0rLIvpuL._AC_SL1448_.jpg"
+          alt="Playlist"
         />
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial !!</p>
-      </ Playlist>
+      </Playlist>
       <Playlist to="/playlist/1">
-        <img src="https://www.billboard.com/files/styles/900_wide/public/media/Green-Day-American-Idiot-album-covers-billboard-1000x1000.jpg" 
-          alt="Playlist" 
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71Z0rLIvpuL._AC_SL1448_.jpg"
+          alt="Playlist"
         />
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial !!</p>
-      </ Playlist>
+      </Playlist>
       <Playlist to="/playlist/1">
-        <img src="https://www.billboard.com/files/styles/900_wide/public/media/Green-Day-American-Idiot-album-covers-billboard-1000x1000.jpg" 
-          alt="Playlist" 
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71Z0rLIvpuL._AC_SL1448_.jpg"
+          alt="Playlist"
         />
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial !!</p>
-      </ Playlist>
+      </Playlist>
     </List>
   </Container>
 );

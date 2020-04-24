@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import 'rc-slider/assets/index.css';
 //injectGlobal`
 //createGlobalStyle`
-export default createGlobalStyle `
+export default createGlobalStyle`
   *{
     margin:0;
     padding:0;
